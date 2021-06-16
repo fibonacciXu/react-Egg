@@ -37,8 +37,12 @@ export default class Index extends Component {
 
   render() {
     console.log(this.props)
+    const houses = {
+      info: {}
+    }
     return (
       <div>
+        {houses?.info2?.id}
         <SearchContext.Provider
           value={{
             state: this.state,
