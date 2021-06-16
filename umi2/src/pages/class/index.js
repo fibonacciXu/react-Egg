@@ -38,6 +38,9 @@ export default class index extends Component {
         <List.Item>
           <Link to="/class/modal">modal</Link>
         </List.Item>
+        <List.Item>
+          <Link to="/class/refs">refs</Link>
+        </List.Item>
       </div>
     );
   }
