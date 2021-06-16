@@ -23,6 +23,9 @@ export default class index extends Component {
             <Link to="/class/component-new">component-new</Link>
           </List.Item>
         </List>
+        <List.Item>
+          <Link to="/class/lists">lists</Link>
+        </List.Item>
       </div>
     );
   }
